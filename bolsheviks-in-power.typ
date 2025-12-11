@@ -25,6 +25,11 @@
 // Enable justification
 #set par(justify: true)
 
+// 页码
+#set page(
+  numbering: "1",
+)
+
 // Set the separator between term list and content
 #set terms(separator: [*:* ])
 
@@ -134,7 +139,7 @@
 #pagebreak()
 
 #heading(numbering: none, level: 1)[缩写表]
-中译本根据实际需求重新进行缩写，与原书中的缩写并不一致。——译者
+#quote(attribution: "译者")[中译本根据实际需求重新进行缩写，与原书中的缩写并不一致。]
 
 - 北方州经济委员会：北方州最高国民经济委员会；
 - 北方州委：布尔什维克北方州委员会；
